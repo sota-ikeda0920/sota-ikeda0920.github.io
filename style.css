@@ -1,0 +1,215 @@
+h1{
+   color: white;
+    font-family: serif;
+}
+
+body{
+    background-color: black;
+}
+
+h2{
+    color: white;
+    font-family: serif;
+}
+
+.a{
+    font-size: 40px;
+}
+
+h3{
+    color: white;
+    font-family: serif;
+}
+
+.b{
+    font-size: 40px;
+}
+
+.c{
+    font-size: 23px;
+}
+
+.f{
+    font-size: 23px;
+}
+
+h4{
+    color: white;
+    font-family: serif;
+}
+
+.d{
+    font-size: 40px;
+}
+
+.e{
+    font-size: 23px;
+}
+
+.for img{
+    margin: 30% auto 10% auto;
+}
+
+.Z{
+    color: white;
+    font-size: 50px;
+}
+
+.ロゴ{
+    background-color: white;
+}
+
+.no2 {
+    line-height: 1;
+  }
+
+  .no3 {
+    line-height: 1.5;
+  }
+
+  .no4 {
+    line-height: 1.5;
+  }
+
+  /*まずはお決まりのボックスサイズ算出をborer-boxに */
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-size: 62.5%;/*rem算出をしやすくするために*/
+}
+
+.btn,
+a.btn,
+button.btn {
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.5;
+  position: relative;
+  display: inline-block;
+  padding: 1rem 4rem;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  text-align: center;
+  vertical-align: middle;
+  text-decoration: none;
+  letter-spacing: 0.1em;
+  color: #eb550b;
+  border-radius: 0.5rem;
+}
+
+@import "https://use.fontawesome.com/releases/v5.13.0/css/all.css";
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+.btn,
+a.btn,
+button.btn {
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.5;
+  position: relative;
+  display: inline-block;
+  padding: 1rem 4rem;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  text-align: center;
+  vertical-align: middle;
+  text-decoration: none;
+  letter-spacing: 0.1em;
+  color: #212529;
+  border-radius: 0.5rem;
+}
+
+a.btn--circle {
+  width: 140px;
+  height: 140px;
+  padding: 20px 0 0;
+  border-radius: 50%;
+  color: #fff;
+  background: #750606;
+  -webkit-box-shadow: 0 7px 0 #700d2c;
+  box-shadow: 0 7px 0 #a70a1c;
+}
+
+a.btn--circle i {
+  font-size: 150%;
+}
+
+.fa-position-bottom {
+  position: absolute;
+  bottom: 1rem;
+  left: calc(50% - 0.5rem);
+}
+
+a.btn--circle:hover {
+  -webkit-transform: translate(0, 4px);
+  transform: translate(0, 4px);
+  color: #fff;
+  -webkit-box-shadow: 0 3px 0 #e53b4e;
+  box-shadow: 0 3px 0 #e53b4e;
+}
+
+a.btn--circle {
+    position: fixed;
+    top: 10px;
+    right: 20px;
+  }
+  #tete{
+    color: white;
+    font-size: large;
+ 
+    font-family: serif;
+    text-align:center;
+    outline: none ;
+}
+
+#saru{
+    color: white;
+    font-size: large;
+    background-color: red;
+    font-family: serif;
+    text-align:center;
+}
+#neko{
+    color: white;
+    font-size: large;
+    background-color: red;
+    font-family: serif;
+    text-align:center;
+}
+#inu{
+    color: white;
+    font-size: large;
+    background-color: red;
+    font-family: serif;
+    text-align:center;
+  
+}
