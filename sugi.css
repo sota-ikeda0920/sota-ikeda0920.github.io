@@ -1,0 +1,63 @@
+div{
+    display: inline;
+
+    .items{
+        display:flex;
+        flex-wrap:wrap;
+        justify-content:center;
+        align-items:center;
+        
+        }
+        
+        .item{
+        box-sizing: border-box;
+        
+        margin: 0;
+        padding: 60px;
+        }
+}
+
+
+
+
+
+.textbox h1{
+    margin-bottom: 1000px;
+}
+h2{
+    font-family: serif;
+}
+h1{
+    font-size: xx-large;
+    font-family: serif;}
+#tete{
+        color: white;
+        font-size: large;
+     
+        font-family: serif;
+        text-align:center;
+        outline: none ;
+}
+
+ #saru{
+        color: white;
+        font-size: large;
+        background-color: red;
+        font-family: serif;
+        text-align:center;
+}
+#neko{
+        color: white;
+        font-size: large;
+        background-color: red;
+        font-family: serif;
+        text-align:center;
+}
+#inu{
+        color: white;
+        font-size: large;
+        background-color: red;
+        font-family: serif;
+        text-align:center;
+      
+ }
